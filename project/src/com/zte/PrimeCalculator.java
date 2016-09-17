@@ -8,7 +8,7 @@ public class PrimeCalculator {
     private static final String SEPARATOR = " ";
 
     public String calculate(int number) {
-        if (number == 1) {
+        if (number <= 1) {
             return "has no prime";
         }
         if (isPrime(number)) {

@@ -29,6 +29,11 @@ public class PrimeCalculatorTest {
     }
 
     @Test
+    public void should_return_invalid_when_input_0() {
+        assertThat(calculator.calculate(0), is("has no prime"));
+    }
+
+    @Test
     public void should_return_5_when_input_5() {
         assertThat(calculator.calculate(5), is("5"));
     }
