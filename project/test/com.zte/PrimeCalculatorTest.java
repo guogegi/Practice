@@ -90,6 +90,6 @@ public class PrimeCalculatorTest {
 
     @Test
     public void should_return_false_when_input_0() {
-        assertThat(calculator.isPrime(1), is(false));
+        assertThat(calculator.isPrime(0), is(false));
     }
 }

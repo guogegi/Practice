@@ -39,8 +39,8 @@
       <file leaf-file-name="PrimeCalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com.zte/PrimeCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#304#305#0" expanded="true" />
@@ -590,8 +590,8 @@
     <history-entry file="PrimeCalculatorTest - 2016.09.17 at 14h 28m 47s.xml">
       <configuration name="PrimeCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PrimeTest - 2016.09.14 at 15h 55m 17s.xml">
-      <configuration name="PrimeTest" configurationId="JUnit" />
+    <history-entry file="PrimeCalculatorTest - 2016.09.17 at 16h 09m 29s.xml">
+      <configuration name="PrimeCalculatorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PrimeTest - 2016.09.17 at 11h 50m 13s.xml">
       <configuration name="PrimeTest" configurationId="JUnit" />
@@ -890,8 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com.zte/PrimeCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="214">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#304#305#0" expanded="true" />
