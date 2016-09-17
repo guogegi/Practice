@@ -59,7 +59,7 @@ public class PrimeCalculatorTest {
     }
 
     @Test
-    public void should_return_3_and_5_when_input_100() {
+    public void should_return_2_and_2_and_5_and_5_when_input_100() {
         assertThat(calculator.calculate(100), is("2 2 5 5"));
     }
 
