@@ -22,8 +22,7 @@ public class Prime {
         int cutNumber = number;
         for (int i = 2; i < number; i++) {
             while (cutNumber % i == 0) {
-                primes = primes + i;
-                primes += SEPARATOR;
+                primes = primes + i + SEPARATOR;
                 cutNumber = cutNumber / i;
             }
         }
@@ -34,7 +33,7 @@ public class Prime {
         if (number <= 3) {
             return number > 1;
         }
-        for (int i = 2; i < number; i++) {
+        for (int i = 2; i <= Math.sqrt(number); i++) {
             if (number % i == 0) {
                 return false;
             }
