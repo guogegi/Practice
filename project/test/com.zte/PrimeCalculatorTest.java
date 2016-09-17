@@ -82,4 +82,14 @@ public class PrimeCalculatorTest {
     public void should_return_true_when_input_4() {
         assertThat(calculator.isPrime(4), is(false));
     }
+
+    @Test
+    public void should_return_false_when_input_1() {
+        assertThat(calculator.isPrime(1), is(false));
+    }
+
+    @Test
+    public void should_return_false_when_input_0() {
+        assertThat(calculator.isPrime(1), is(false));
+    }
 }
