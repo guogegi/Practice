@@ -3,11 +3,11 @@ package com.zte;
 /**
  * Created by 502 on 2016/9/10.
  */
-public class Prime {
+public class PrimeCalculator {
 
     private static final String SEPARATOR = " ";
 
-    public String calculatePrimes(int number) {
+    public String calculate(int number) {
         if (number == 1) {
             return "has no prime";
         }

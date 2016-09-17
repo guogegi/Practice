@@ -9,81 +9,72 @@ import static org.junit.Assert.assertThat;
 /**
  * Created by 502 on 2016/9/10.
  */
-public class PrimeTest {
+public class PrimeCalculatorTest {
 
-    private Prime prime;
+    private PrimeCalculator calculator;
 
     @Before
     public void setup() {
-        prime = new Prime();
+        calculator = new PrimeCalculator();
     }
 
     @Test
     public void should_return_2_when_input_2() {
-        String primes = prime.calculatePrimes(2);
-        assertThat(primes, is("2"));
+        assertThat(calculator.calculate(2), is("2"));
     }
 
     @Test
     public void should_return_invalid_when_input_1() {
-        String primes = prime.calculatePrimes(1);
-        assertThat(primes, is("has no prime"));
+        assertThat(calculator.calculate(1), is("has no prime"));
     }
 
     @Test
     public void should_return_5_when_input_5() {
-        String primes = prime.calculatePrimes(5);
-        assertThat(primes, is("5"));
+        assertThat(calculator.calculate(5), is("5"));
     }
 
     @Test
     public void should_return_2_and_5_when_input_10() {
-        String primes = prime.calculatePrimes(10);
-        assertThat(primes, is("2 5"));
+        assertThat(calculator.calculate(10), is("2 5"));
     }
 
     @Test
     public void should_return_2_and_2_when_input_4() {
-        String primes = prime.calculatePrimes(4);
-        assertThat(primes, is("2 2"));
+        assertThat(calculator.calculate(4), is("2 2"));
     }
 
     @Test
     public void should_return_2_and_2_and_2_when_input_8() {
-        String primes = prime.calculatePrimes(8);
-        assertThat(primes, is("2 2 2"));
+        assertThat(calculator.calculate(8), is("2 2 2"));
     }
 
     @Test
     public void should_return_3_and_5_when_input_15() {
-        String primes = prime.calculatePrimes(15);
-        assertThat(primes, is("3 5"));
+        assertThat(calculator.calculate(15), is("3 5"));
     }
 
     @Test
     public void should_return_3_and_5_when_input_100() {
-        String primes = prime.calculatePrimes(100);
-        assertThat(primes, is("2 2 5 5"));
+        assertThat(calculator.calculate(100), is("2 2 5 5"));
     }
 
     @Test
     public void should_return_101_when_input_101() {
-        String primes = prime.calculatePrimes(101);
-        assertThat(primes, is("101"));
+        assertThat(calculator.calculate(101), is("101"));
     }
 
     @Test
     public void should_return_true_when_input_2() {
-        assertThat(prime.isPrime(2), is(true));
+        assertThat(calculator.isPrime(2), is(true));
     }
 
     @Test
     public void should_return_true_when_input_3() {
-        assertThat(prime.isPrime(3), is(true));
+        assertThat(calculator.isPrime(3), is(true));
     }
 
     @Test
     public void should_return_true_when_input_4() {
-        assertThat(prime.isPrime(4), is(false));
+        assertThat(calculator.isPrime(4), is(false));
     }
 }
